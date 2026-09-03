@@ -1,7 +1,9 @@
 import pymupdf
 
+from src.rag_engine.core.document import Document
 
-def extract_pdf(path):
+
+def extract_pdf(path: str) -> Document:
     pdf = pymupdf.open(path)
 
     pages = []
@@ -11,7 +13,14 @@ def extract_pdf(path):
 
         pages.append({
             "page_number": page_number + 1,
-            "text": text
+            "text": text,
         })
 
-    return pages
+    document = Document(
+        document_id=path,
+        source_type="pdf",
+        source_locator=path,
+        pages=pages,
+    )
+
+    return document
