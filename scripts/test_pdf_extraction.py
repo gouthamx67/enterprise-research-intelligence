@@ -1,16 +1,26 @@
-from src.rag_engine.ingestion.pdf import extract_pdf
+from src.rag_engine.ingestion.pdf import extract_pdf_text
 
 
-pdf_path = "data/raw/pdf/your_document.pdf"
+PDF_PATH = "data/raw/pdf/your_document.pdf"
 
-document = extract_pdf(pdf_path)
 
-print("Document ID:", document.document_id)
-print("Source type:", document.source_type)
-print("Source locator:", document.source_locator)
+pages = extract_pdf_text(PDF_PATH)
 
-print("Number of pages:", len(document.pages))
+print("Number of pages:", len(pages))
 
-for page in document.pages:
-    print(f"\n--- PAGE {page['page_number']} ---\n")
+for page in pages:
+
+    print(
+        f"\n--- PAGE {page['page_number']} ---\n"
+    )
+
     print(page["text"])
+
+print("\n--- PAGE CHARACTER COUNTS ---")
+
+for page in pages:
+
+    print(
+        f"Page {page['page_number']}: "
+        f"{page['character_count']} characters"
+    )
