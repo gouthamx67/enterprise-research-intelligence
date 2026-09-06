@@ -21,3 +21,5 @@ def deduplicate_pages(document: Document) -> Document:
     document.pages = unique_pages
 
     return document
+
+    
