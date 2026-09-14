@@ -1,9 +1,10 @@
+from typing import Any
+
 import numpy as np
 
 from src.rag_engine.core.document import Chunk
-from src.rag_engine.retrieval.embeddings import (
-    EmbeddingModel,
-)
+from src.rag_engine.retrieval.embeddings import EmbeddingModel
+from src.rag_engine.retrieval.filters import filter_chunks
 from src.rag_engine.retrieval.models import (
     EmbeddedChunk,
     RetrievalResult,
@@ -15,14 +16,8 @@ def cosine_similarity(
     document_matrix: np.ndarray,
 ) -> np.ndarray:
     """
-    Calculate cosine similarity between one query vector
-    and multiple document vectors.
-
-    Both the query vector and document vectors are expected
-    to be normalized.
-
-    Returns:
-        One similarity score per document vector.
+    Calculate cosine similarity between one query vector and
+    a matrix of document vectors.
     """
 
     query_vector = np.asarray(
@@ -37,27 +32,20 @@ def cosine_similarity(
 
     if query_vector.ndim != 1:
         raise ValueError(
-            "query_vector must be one-dimensional"
+            "query_vector must be a 1-dimensional array"
         )
 
     if document_matrix.ndim != 2:
         raise ValueError(
-            "document_matrix must be two-dimensional"
+            "document_matrix must be a 2-dimensional array"
         )
 
-    if (
-        document_matrix.shape[1]
-        != query_vector.shape[0]
-    ):
+    if query_vector.shape[0] != document_matrix.shape[1]:
         raise ValueError(
-            "query and document vectors must "
-            "have the same dimensions"
+            "query and document dimensions must match"
         )
 
-    query_norm = np.linalg.norm(
-        query_vector
-    )
-
+    query_norm = np.linalg.norm(query_vector)
     document_norms = np.linalg.norm(
         document_matrix,
         axis=1,
@@ -65,13 +53,12 @@ def cosine_similarity(
 
     if query_norm == 0:
         raise ValueError(
-            "query_vector cannot be a zero vector"
+            "query_vector cannot have zero magnitude"
         )
 
     if np.any(document_norms == 0):
         raise ValueError(
-            "document vectors cannot contain "
-            "zero vectors"
+            "document vectors cannot have zero magnitude"
         )
 
     return (
@@ -82,41 +69,43 @@ def cosine_similarity(
 
 
 class DenseIndex:
-    """
-    In-memory dense vector index.
-
-    Embeddings are stored in a NumPy matrix and searched
-    using cosine similarity.
-    """
-
     def __init__(
         self,
         embedding_model: EmbeddingModel | None = None,
     ):
         self.embedding_model = (
             embedding_model
-            or EmbeddingModel()
+            if embedding_model is not None
+            else EmbeddingModel()
         )
 
-        self.embedded_chunks: list[
-            EmbeddedChunk
-        ] = []
+        self.embedded_chunks: list[EmbeddedChunk] = []
 
-        self.matrix: np.ndarray | None = None
+        self.matrix = np.empty(
+            (0, 0),
+            dtype=float,
+        )
+
+    @property
+    def size(self) -> int:
+        return len(self.embedded_chunks)
+
+    @property
+    def dimensions(self) -> int:
+        if self.matrix.ndim != 2:
+            return 0
+
+        if self.matrix.shape[0] == 0:
+            return 0
+
+        return self.matrix.shape[1]
 
     def add_chunks(
         self,
         chunks: list[Chunk],
-    ):
-        """
-        Generate embeddings for chunks and add them
-        to the dense index.
-        """
-
+    ) -> None:
         if not chunks:
-            raise ValueError(
-                "chunks cannot be empty"
-            )
+            raise ValueError("chunks cannot be empty")
 
         texts = [
             chunk.text
@@ -127,29 +116,38 @@ class DenseIndex:
             texts
         )
 
+        new_embedded_chunks = []
+
         for chunk, embedding in zip(
             chunks,
             embeddings,
         ):
-            self.embedded_chunks.append(
+            metadata = {
+                "document_id": chunk.document_id,
+                "source": chunk.source,
+                "source_type": chunk.source_type,
+                "section_title": chunk.section_title,
+                "start_page": chunk.start_page,
+                "end_page": chunk.end_page,
+                "block_numbers": chunk.block_numbers,
+                **chunk.metadata,
+            }
+
+            new_embedded_chunks.append(
                 EmbeddedChunk(
                     chunk_id=chunk.chunk_id,
                     text=chunk.text,
                     embedding=np.asarray(
-                        embedding
+                        embedding,
+                        dtype=float,
                     ),
-                    metadata={
-                        "document_id": chunk.document_id,
-                        "source": chunk.source,
-                        "source_type": chunk.source_type,
-                        "section_title": chunk.section_title,
-                        "start_page": chunk.start_page,
-                        "end_page": chunk.end_page,
-                        "block_numbers": chunk.block_numbers,
-                        **chunk.metadata,
-                    },
+                    metadata=metadata,
                 )
             )
+
+        self.embedded_chunks.extend(
+            new_embedded_chunks
+        )
 
         self.matrix = np.vstack(
             [
@@ -158,79 +156,168 @@ class DenseIndex:
             ]
         )
 
-    @property
-    def size(self) -> int:
-        """
-        Number of embedded chunks currently indexed.
-        """
-
-        return len(
-            self.embedded_chunks
-        )
-
-    @property
-    def dimensions(self) -> int | None:
-        """
-        Number of dimensions in the embedding vectors.
-        """
-
-        if self.matrix is None:
-            return None
-
-        return self.matrix.shape[1]
-
     def search(
         self,
         query: str,
         top_k: int = 5,
+        filters: dict[str, Any] | None = None,
+        score_threshold: float | None = None,
     ) -> list[RetrievalResult]:
-        """
-        Retrieve the top-k chunks using cosine similarity.
-        """
+        if not query or not query.strip():
+            raise ValueError("query cannot be empty")
 
-        if not query.strip():
-            raise ValueError(
-                "query cannot be empty"
-            )
+        query_embedding = (
+            self.embedding_model.encode_one(query)
+        )
+
+        return self.search_by_vector(
+            query_embedding,
+            top_k=top_k,
+            filters=filters,
+            score_threshold=score_threshold,
+        )
+
+    def search_by_vector(
+        self,
+        query_vector: np.ndarray,
+        top_k: int = 5,
+        filters: dict[str, Any] | None = None,
+        score_threshold: float | None = None,
+    ) -> list[RetrievalResult]:
+        if self.size == 0:
+            return []
 
         if top_k <= 0:
             raise ValueError(
                 "top_k must be greater than 0"
             )
 
-        if self.matrix is None:
+        if score_threshold is not None:
+            if not -1.0 <= score_threshold <= 1.0:
+                raise ValueError(
+                    "score_threshold must be between -1 and 1"
+                )
+
+        query_vector = np.asarray(
+            query_vector,
+            dtype=float,
+        )
+
+        if query_vector.ndim != 1:
             raise ValueError(
-                "index is empty; add chunks first"
+                "query_vector must be a 1-dimensional array"
             )
 
-        query_vector = (
-            self.embedding_model.encode_one(
-                query
+        if query_vector.shape[0] != self.dimensions:
+            raise ValueError(
+                "query vector dimension does not match index"
             )
+
+        eligible_chunks = filter_chunks(
+            [
+                Chunk(
+                    chunk_id=item.chunk_id,
+                    text=item.text,
+                    document_id=item.metadata.get(
+                        "document_id",
+                        "",
+                    ),
+                    source=item.metadata.get(
+                        "source",
+                        "",
+                    ),
+                    source_type=item.metadata.get(
+                        "source_type",
+                        "",
+                    ),
+                    section_title=item.metadata.get(
+                        "section_title"
+                    ),
+                    start_page=item.metadata.get(
+                        "start_page"
+                    ),
+                    end_page=item.metadata.get(
+                        "end_page"
+                    ),
+                    block_numbers=item.metadata.get(
+                        "block_numbers",
+                        [],
+                    ),
+                    metadata=item.metadata,
+                )
+                for item in self.embedded_chunks
+            ],
+            filters,
         )
+
+        eligible_ids = {
+            chunk.chunk_id
+            for chunk in eligible_chunks
+        }
+
+        eligible_indices = [
+            index
+            for index, item in enumerate(
+                self.embedded_chunks
+            )
+            if item.chunk_id in eligible_ids
+        ]
+
+        if not eligible_indices:
+            return []
+
+        eligible_matrix = self.matrix[
+            eligible_indices
+        ]
 
         scores = cosine_similarity(
             query_vector,
-            self.matrix,
+            eligible_matrix,
         )
 
-        ranked_indices = sorted(
-            range(len(scores)),
-            key=lambda index: scores[index],
+        scored_items = []
+
+        for local_index, score in enumerate(
+            scores
+        ):
+            global_index = eligible_indices[
+                local_index
+            ]
+
+            if (
+                score_threshold is not None
+                and score < score_threshold
+            ):
+                continue
+
+            scored_items.append(
+                (
+                    global_index,
+                    float(score),
+                )
+            )
+
+        scored_items.sort(
+            key=lambda item: item[1],
             reverse=True,
         )
 
         results = []
 
-        for rank, index in enumerate(
-            ranked_indices[:top_k],
+        for rank, (
+            global_index,
+            score,
+        ) in enumerate(
+            scored_items[:top_k],
             start=1,
         ):
-            item = self.embedded_chunks[index]
+            item = self.embedded_chunks[
+                global_index
+            ]
 
             results.append(
                 RetrievalResult(
-                    score=float(scores[index]),
+                    score=score,
                     rank=rank,
                     chunk_id=item.chunk_id,
                     text=item.text,

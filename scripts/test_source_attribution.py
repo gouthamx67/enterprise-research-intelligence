@@ -1,0 +1,270 @@
+from dataclasses import dataclass
+
+from src.rag_engine.retrieval.source_attribution import (
+    SourceAttribution,
+    SourceAttributionResult,
+    SourceAttributor,
+    attribute_sources,
+)
+
+
+@dataclass
+class FakeContext:
+    chunk_id: str
+    text: str
+    score: float
+    rank: int
+    metadata: dict
+
+
+def build_contexts():
+    return [
+        FakeContext(
+            chunk_id="chunk-001",
+            text=(
+                "The company expanded its "
+                "enterprise product strategy."
+            ),
+            score=0.95,
+            rank=1,
+            metadata={
+                "source": "annual_report.pdf",
+                "source_type": "pdf",
+                "title": "Annual Report 2025",
+                "company": "Example Corp",
+                "document_date": "2025-12-31",
+                "start_page": 42,
+                "end_page": 43,
+                "section_title": "Product Strategy",
+                "block_numbers": [12, 13, 14],
+            },
+        ),
+        FakeContext(
+            chunk_id="chunk-002",
+            text=(
+                "The company introduced "
+                "usage-based pricing."
+            ),
+            score=0.90,
+            rank=2,
+            metadata={
+                "source": "earnings_transcript.txt",
+                "source_type": "transcript",
+                "title": "Q4 Earnings Call",
+                "company": "Example Corp",
+                "document_date": "2025-11-15",
+                "start_page": 8,
+                "end_page": 8,
+                "section_title": "Pricing",
+                "block_numbers": [21],
+            },
+        ),
+    ]
+
+
+def main():
+
+    contexts = build_contexts()
+
+    attributor = SourceAttributor()
+
+    result = attributor.attribute(
+        contexts
+    )
+
+    # ---------------------------------------------
+    # Result type
+    # ---------------------------------------------
+
+    assert isinstance(
+        result,
+        SourceAttributionResult,
+    )
+
+    assert len(
+        result.attributions
+    ) == 2
+
+    # ---------------------------------------------
+    # Citation IDs
+    # ---------------------------------------------
+
+    assert [
+        item.citation_id
+        for item in result.attributions
+    ] == [
+        "C1",
+        "C2",
+    ]
+
+    # ---------------------------------------------
+    # Chunk IDs
+    # ---------------------------------------------
+
+    assert (
+        result.attributions[0].chunk_id
+        == "chunk-001"
+    )
+
+    assert (
+        result.attributions[1].chunk_id
+        == "chunk-002"
+    )
+
+    # ---------------------------------------------
+    # Source information
+    # ---------------------------------------------
+
+    first = result.attributions[0]
+
+    assert isinstance(
+        first,
+        SourceAttribution,
+    )
+
+    assert (
+        first.source
+        == "annual_report.pdf"
+    )
+
+    assert (
+        first.source_type
+        == "pdf"
+    )
+
+    assert (
+        first.title
+        == "Annual Report 2025"
+    )
+
+    assert (
+        first.company
+        == "Example Corp"
+    )
+
+    assert (
+        first.document_date
+        == "2025-12-31"
+    )
+
+    # ---------------------------------------------
+    # Location information
+    # ---------------------------------------------
+
+    assert first.start_page == 42
+    assert first.end_page == 43
+
+    assert (
+        first.section_title
+        == "Product Strategy"
+    )
+
+    assert first.block_numbers == (
+        12,
+        13,
+        14,
+    )
+
+    # ---------------------------------------------
+    # Metadata preserved
+    # ---------------------------------------------
+
+    assert (
+        first.metadata["source"]
+        == "annual_report.pdf"
+    )
+
+    assert (
+        first.metadata["page_not_present"]
+        if "page_not_present" in first.metadata
+        else True
+    )
+
+    # ---------------------------------------------
+    # Lookup
+    # ---------------------------------------------
+
+    citation = result.get("C1")
+
+    assert citation is not None
+
+    assert (
+        citation.chunk_id
+        == "chunk-001"
+    )
+
+    assert (
+        citation.section_title
+        == "Product Strategy"
+    )
+
+    # ---------------------------------------------
+    # Missing citation
+    # ---------------------------------------------
+
+    assert (
+        result.get("C99")
+        is None
+    )
+
+    # ---------------------------------------------
+    # Second source
+    # ---------------------------------------------
+
+    second = result.attributions[1]
+
+    assert (
+        second.source
+        == "earnings_transcript.txt"
+    )
+
+    assert (
+        second.source_type
+        == "transcript"
+    )
+
+    assert second.start_page == 8
+    assert second.end_page == 8
+
+    # ---------------------------------------------
+    # Convenience function
+    # ---------------------------------------------
+
+    result = attribute_sources(
+        contexts
+    )
+
+    assert len(
+        result.attributions
+    ) == 2
+
+    # ---------------------------------------------
+    # Empty input
+    # ---------------------------------------------
+
+    result = attributor.attribute([])
+
+    assert result.attributions == []
+
+    # ---------------------------------------------
+    # None input
+    # ---------------------------------------------
+
+    try:
+        attributor.attribute(None)
+
+        raise AssertionError(
+            "Expected ValueError"
+        )
+
+    except ValueError:
+        pass
+
+    print(
+        "All source attribution "
+        "assertions passed."
+    )
+
+
+if __name__ == "__main__":
+    main()

@@ -1,16 +1,20 @@
 import re
+from typing import Any
 
 from rank_bm25 import BM25Okapi
 
 from src.rag_engine.core.document import Chunk
-from src.rag_engine.retrieval.models import RetrievalResult
+from src.rag_engine.retrieval.filters import (
+    filter_chunks,
+)
+from src.rag_engine.retrieval.models import (
+    RetrievalResult,
+)
 
 
 def tokenize(text: str) -> list[str]:
     """
     Convert text into normalized lexical tokens.
-
-    BM25 operates on tokens rather than raw strings.
     """
 
     text = text.lower()
@@ -25,9 +29,7 @@ class BM25Retriever:
     """
     Sparse lexical retriever based on BM25.
 
-    The retriever builds an index over document chunks
-    and ranks chunks according to their lexical relevance
-    to a query.
+    Metadata filtering happens before BM25 ranking.
     """
 
     def __init__(
@@ -54,9 +56,13 @@ class BM25Retriever:
         self,
         query: str,
         top_k: int = 5,
+        filters: dict[str, Any] | None = None,
     ) -> list[RetrievalResult]:
         """
-        Retrieve the top-k chunks for a query.
+        Retrieve the top-k chunks.
+
+        If filters are provided, only matching chunks
+        participate in BM25 ranking.
         """
 
         if not query.strip():
@@ -69,6 +75,27 @@ class BM25Retriever:
                 "top_k must be greater than 0"
             )
 
+        candidate_chunks = filter_chunks(
+            self.chunks,
+            filters,
+        )
+
+        if not candidate_chunks:
+            return []
+
+        candidate_lookup = {
+            chunk.chunk_id: chunk
+            for chunk in candidate_chunks
+        }
+
+        candidate_indices = [
+            index
+            for index, chunk in enumerate(
+                self.chunks
+            )
+            if chunk.chunk_id in candidate_lookup
+        ]
+
         query_tokens = tokenize(query)
 
         scores = self.index.get_scores(
@@ -76,7 +103,7 @@ class BM25Retriever:
         )
 
         ranked_indices = sorted(
-            range(len(scores)),
+            candidate_indices,
             key=lambda index: scores[index],
             reverse=True,
         )
