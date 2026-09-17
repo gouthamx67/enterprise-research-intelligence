@@ -1,0 +1,6176 @@
+[
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p1-b0",
+    "text": "Instructor:Dr. Anjli Varghese anjli.varghese@mahindrauniversity.edu.in",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 1,
+      "end_page": 1,
+      "block_numbers": [
+        0
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 1,
+      "block_number": 0
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p1-b2",
+    "text": "Speech Processing (EC4143)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 1,
+      "end_page": 1,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 1,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p1-b3",
+    "text": "Fall 2026",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 1,
+      "end_page": 1,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 1,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p1-b4",
+    "text": "Module 1",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 1,
+      "end_page": 1,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 1,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p2-b1",
+    "text": "\u2022 Human speech production mechanism\u2022 Source\u2013filter model of speech\u2022 Categorization of Speech\u2022 Elements of a language: Phonemes in American language\u2022 Place and Manner of Articulation\u2022 Acoustic Characteristics of Speech",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 2,
+      "end_page": 2,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 2,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p2-b2",
+    "text": "Module 1:FundamentalsofSpeechProductionandPhonetics",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 2,
+      "end_page": 2,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 2,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p3-b1",
+    "text": "1. Speech Recognition: Speech \u2192Text/CommandEx: Voice assistants, voice typing, call centres2. Speaker Recognition: Voice \u2192Speaker IdentityEx: Voice authentication, banking, security3. Automatic Language Translation: Speech \u2192Text/SpeechEx: Live translation, meetings, travel4. Speech Enhancement: Noisy Speech \u2192Clean SpeechEx: Mobile phones, hearing aids, online meetings5. Text-to-Speech: Text \u2192SpeechEx: Navigation, screen readers, virtual assistants",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 3,
+      "end_page": 3,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 3,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p3-b2",
+    "text": "List some of the other speech processing applications with examples.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 3,
+      "end_page": 3,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 3,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p3-b4",
+    "text": "Speech Processing Applications",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 3,
+      "end_page": 3,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 3,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p4-b1",
+    "text": "Different Disciplines of SP",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 4,
+      "end_page": 4,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 4,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p5-b2",
+    "text": "Speech Production & Perception",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 5,
+      "end_page": 5,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 5,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p5-b3",
+    "text": "Acoustic waveform(pressure)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 5,
+      "end_page": 5,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 5,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p5-b4",
+    "text": "(voltage)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 5,
+      "end_page": 5,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 5,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p5-b5",
+    "text": "Recording/Processing/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 5,
+      "end_page": 5,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 5,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p5-b6",
+    "text": "Transmission",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 5,
+      "end_page": 5,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 5,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p5-b7",
+    "text": "Acoustic waveform(pressure)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 5,
+      "end_page": 5,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 5,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p5-b8",
+    "text": "50Hz \u2013 8KHz20Hz \u2013 20KHz",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 5,
+      "end_page": 5,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 5,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p6-b1",
+    "text": "1. Sampling and Quantization: Convert analog signal to digital signal2. Classification of Signals: a. Energy and Power Signal",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 6,
+      "end_page": 6,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 6,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p6-b2",
+    "text": "Speech is a finite-duration bounded signal \u2192it is an energy signal.b. Periodic and Aperiodic Signal",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 6,
+      "end_page": 6,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 6,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p6-b3",
+    "text": "Speech has both periodic (voiced) and aperiodic (unvoiced) elements.c. Symmetric and Asymmetric Signal",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 6,
+      "end_page": 6,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 6,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p6-b4",
+    "text": "Speech is asymmetric signal. c. Stationary and Non-stationary Signal",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 6,
+      "end_page": 6,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 6,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p6-b5",
+    "text": "Speech is a non-stationary signal.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 6,
+      "end_page": 6,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 6,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p6-b6",
+    "text": "DSP Concepts:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 6,
+      "end_page": 6,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 6,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p7-b1",
+    "text": "3. Classification of Systems: (System respond to the signal)a. Static/memoryless and Dynamic System:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 7,
+      "end_page": 7,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 7,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p7-b2",
+    "text": "Vocal Tract is dynamicb. Time varying and Time invariant System",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 7,
+      "end_page": 7,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 7,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p7-b3",
+    "text": "Vocal Tract is time-varying c. Linear and Non-linear System",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 7,
+      "end_page": 7,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 7,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p7-b4",
+    "text": "Vocal Tract is lineard. Causal and Non-causal System",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 7,
+      "end_page": 7,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 7,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p7-b5",
+    "text": "Vocal Tract is causale. Stable and Unstable System",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 7,
+      "end_page": 7,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 7,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p7-b6",
+    "text": "Vocal Tract is stable",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 7,
+      "end_page": 7,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 7,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p7-b7",
+    "text": "DSP Concepts (Contd.):",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 7,
+      "end_page": 7,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 7,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b1",
+    "text": "DSP Concepts: LTI System",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b2",
+    "text": "x[n]Input",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b3",
+    "text": "h[n]LTI system",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b4",
+    "text": "y[n]Output",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b5",
+    "text": "y[n] = h[n] \u2217x[n]",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b6",
+    "text": "y n =\u0dcd",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b7",
+    "text": "k=\u2212\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b8",
+    "text": "\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b9",
+    "text": "h k x[n \u2212k]",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b10",
+    "text": "h[n] = impulse response of the system",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b11",
+    "text": "Let xn= ej\u03c9n",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b12",
+    "text": "yn= \u0dcd",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        12
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 12
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b13",
+    "text": "k=\u2212\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        13
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 13
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b14",
+    "text": "\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        14
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 14
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b15",
+    "text": "h k ej\u03c9n\u2212k",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        15
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 15
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b16",
+    "text": "= \u0dcd",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        16
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 16
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b17",
+    "text": "k=\u2212\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        17
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 17
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b18",
+    "text": "\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        18
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 18
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b19",
+    "text": "h k ej\u03c9ne\u2212j\u03c9k",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        19
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 19
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b20",
+    "text": "= ej\u03c9n\u0dcd",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        20
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 20
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b21",
+    "text": "k=\u2212\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        21
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 21
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b22",
+    "text": "\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        22
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 22
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b23",
+    "text": "h k e\u2212j\u03c9k",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        23
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 23
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b24",
+    "text": "y[n] = ej\u03c9nH(ej\u03c9)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        24
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 24
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b25",
+    "text": "H(ej\u03c9) is the frequency response of the",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        25
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 25
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p8-b26",
+    "text": "system",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 8,
+      "end_page": 8,
+      "block_numbers": [
+        26
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 8,
+      "block_number": 26
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b1",
+    "text": "DSP Concepts: LTI System (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b2",
+    "text": "H(ej\u03c9) = \u0dcd",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b3",
+    "text": "k=\u2212\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b4",
+    "text": "\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b5",
+    "text": "h k e\u2212j\u03c9k",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b6",
+    "text": "e\u2212j\u03c9k= cos \u03c9k\u2212jsin \u03c9k\u2192complex",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b7",
+    "text": "H(ej\u03c9)= \u03c3k=\u2212\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b8",
+    "text": "\u221eh k cos \u03c9k+ j\u03c3k=\u2212\u221e",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b9",
+    "text": "\u221eh k sin \u2212\u03c9k",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b10",
+    "text": "Real + Imaginary",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b11",
+    "text": "Magnitude response",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b12",
+    "text": "|H(e^(j\u03c9))| = \u221a(Re2{H} + Im2{H})",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        12
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 12
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b13",
+    "text": "Phase response",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        13
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 13
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b14",
+    "text": "\u03c6(\u03c9) = arg[H(e^(j\u03c9))]",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        14
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 14
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b15",
+    "text": "= tan\u22121(Im{H}/Re{H})",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        15
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 15
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b16",
+    "text": "Group delay",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        16
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 16
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b17",
+    "text": "\u03c4(\u03c9) = \u2212d\u03c6(\u03c9)/d\u03c9",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        17
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 17
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b18",
+    "text": "how much each frequency is",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        18
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 18
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b19",
+    "text": "amplified or attenuated",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        19
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 19
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b20",
+    "text": "how the phase of each frequency",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        20
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 20
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b21",
+    "text": "component is shifted",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        21
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 21
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b22",
+    "text": "frequency-dependent delay",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        22
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 22
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p9-b23",
+    "text": "introduced by the system",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 9,
+      "end_page": 9,
+      "block_numbers": [
+        23
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 9,
+      "block_number": 23
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p10-b2",
+    "text": "Introduction",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 10,
+      "end_page": 10,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 10,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p10-b4",
+    "text": "Fig 1: Human Speech Production and Perception",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 10,
+      "end_page": 10,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 10,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p11-b2",
+    "text": "\u2022The fundamental purpose of speech is communication.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 11,
+      "end_page": 11,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 11,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p11-b3",
+    "text": "\u2022It is produced by the vibration of the air through the vocal folds.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 11,
+      "end_page": 11,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 11,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p11-b4",
+    "text": "\u2022It is a continuously varying acoustic signal.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 11,
+      "end_page": 11,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 11,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p11-b5",
+    "text": "\u2022Microphone converts this acoustic signal to electrical and the",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 11,
+      "end_page": 11,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 11,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p11-b6",
+    "text": "loudspeaker converts it back to the acoustic form.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 11,
+      "end_page": 11,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 11,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p11-b7",
+    "text": "\u2022This form of speech processing is the basis for from Bell\u2019s telephone",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 11,
+      "end_page": 11,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 11,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p11-b8",
+    "text": "as well as today\u2019s devices for recording/transmission/manipulation.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 11,
+      "end_page": 11,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 11,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p11-b9",
+    "text": "\u2022Every speaker has unique speech production characteristics.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 11,
+      "end_page": 11,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 11,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p11-b10",
+    "text": "\u2022Every speech has a sequence of sounds called phonemes.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 11,
+      "end_page": 11,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 11,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p11-b11",
+    "text": "Introduction (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 11,
+      "end_page": 11,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 11,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p12-b3",
+    "text": "Fig 3: Example of a speech waveform with phonetic labels",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 12,
+      "end_page": 12,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 12,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p12-b5",
+    "text": "Fig 2: Human Speech Organs",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 12,
+      "end_page": 12,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 12,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p12-b6",
+    "text": "Introduction (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 12,
+      "end_page": 12,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 12,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p13-b2",
+    "text": "\u2022Speech chain is the process of producing and perceiving speech.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 13,
+      "end_page": 13,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 13,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p13-b3",
+    "text": "\u2022It involves:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 13,
+      "end_page": 13,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 13,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p13-b4",
+    "text": "a. Formulation of the message in the brain of a talker.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 13,
+      "end_page": 13,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 13,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p13-b5",
+    "text": "b. Creation of the speech signal.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 13,
+      "end_page": 13,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 13,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p13-b6",
+    "text": "c. Understanding the speech by a listener.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 13,
+      "end_page": 13,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 13,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p13-b7",
+    "text": "\u2022Generally has three stages:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 13,
+      "end_page": 13,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 13,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p13-b8",
+    "text": "a.Speech Production",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 13,
+      "end_page": 13,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 13,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p13-b9",
+    "text": "b.Transmission Channel",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 13,
+      "end_page": 13,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 13,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p13-b10",
+    "text": "c.Speech Perception",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 13,
+      "end_page": 13,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 13,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p13-b11",
+    "text": "Speech Chain",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 13,
+      "end_page": 13,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 13,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p14-b3",
+    "text": "Speech Chain (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 14,
+      "end_page": 14,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 14,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p14-b4",
+    "text": "Fig 3: Speech Chain",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 14,
+      "end_page": 14,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 14,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p14-b5",
+    "text": "BrainTeeth/tongue/lipsOral/Nasal Cavity",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 14,
+      "end_page": 14,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 14,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p14-b6",
+    "text": "EarBrainBrain",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 14,
+      "end_page": 14,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 14,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p15-b2",
+    "text": "\u2022Speech signal is a sequence of sounds.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 15,
+      "end_page": 15,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 15,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p15-b3",
+    "text": "\u2022Each sound is referred as phoneme. (Phonemes are not alphabets.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 15,
+      "end_page": 15,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 15,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p15-b4",
+    "text": "\u2022Phoneme \u2013 Fundamental unit of speech.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 15,
+      "end_page": 15,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 15,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p15-b5",
+    "text": "\u2022Phonemes are arranged in a specific language rule.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 15,
+      "end_page": 15,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 15,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p15-b6",
+    "text": "\u2022Linguistics: The study of language rules.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 15,
+      "end_page": 15,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 15,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p15-b7",
+    "text": "\u2022Phonetics: The study of different phonemes.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 15,
+      "end_page": 15,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 15,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p15-b8",
+    "text": "\u2022In most languages, the #phonemes ranges b/w 32 to 64.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 15,
+      "end_page": 15,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 15,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p15-b9",
+    "text": "\u2022Each phoneme is represented b/w 2 slashes: (cat \u2192/K/ /AE/ /T/).",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 15,
+      "end_page": 15,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 15,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p15-b10",
+    "text": "\u2022Replacing one phoneme changes the meaning: (bat \u2192/B/ /AE/ /T/).",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 15,
+      "end_page": 15,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 15,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p15-b11",
+    "text": "Speech Signal",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 15,
+      "end_page": 15,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 15,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b3",
+    "text": "Speech Signal (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b4",
+    "text": "\u2022#alphabets = 13",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b5",
+    "text": "\u2022#phonemes = 8",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b6",
+    "text": "\u2022ARPAbet \u2013 computer-",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b7",
+    "text": "keyword friendly code.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b8",
+    "text": "\u2022/SH/, /S/ \u2192unstructured",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b9",
+    "text": "and noisy.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b10",
+    "text": "\u2022/UH/,/IY/,/EY/\u2192",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b11",
+    "text": "structuredandquasi-",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b12",
+    "text": "periodic.Fig 4: Example of a speech waveform with phonetic labels",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        12
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 12
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p16-b13",
+    "text": "for the message \u201cShould we chase\u201d",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 16,
+      "end_page": 16,
+      "block_numbers": [
+        13
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 16,
+      "block_number": 13
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p17-b2",
+    "text": "Fig 5: Simple View of Human Speech Production",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 17,
+      "end_page": 17,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 17,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p17-b4",
+    "text": "Human Speech Production",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 17,
+      "end_page": 17,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 17,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p18-b1",
+    "text": "Main speech organs involved in speech production",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 18,
+      "end_page": 18,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 18,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p18-b2",
+    "text": "\u2022Lungs- provide airflow to the larynx",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 18,
+      "end_page": 18,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 18,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p18-b3",
+    "text": "\u2022Larynx- modulates airflow from the lungs and provides puff-like or",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 18,
+      "end_page": 18,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 18,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p18-b4",
+    "text": "noisy airflow source to the vocal tract",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 18,
+      "end_page": 18,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 18,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p18-b5",
+    "text": "\u2022Vocal tract \u2013 modulates the airflow from the larynx by shaping the",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 18,
+      "end_page": 18,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 18,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p18-b6",
+    "text": "spectrum of the source",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 18,
+      "end_page": 18,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 18,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b3",
+    "text": "SchematicRepresentationofHumanSpeechProduction System",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b4",
+    "text": "Lungs: Source of",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b5",
+    "text": "excitation",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b6",
+    "text": "(produce required amount",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b7",
+    "text": "of air)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b8",
+    "text": "Vocal Tract: Mechanical body (produce vibration and creates sound)It is a tube of non-uniform cross-sectional area bounded by vocal folds and oral cavity at two ends.a.Vocal Folds/Cords: A pair of muscle in the voice box (larynx). Air from the lungs are vibrated in thevocal folds.Open \u2013 no vibration (no sound), Close \u2013 vibration of air.b.Articulators: hard palate, tongue, teeth, lips, etc. The shape of the vocal tract changes based on themotion of the articulators. (Vibration + Vocal tract shape \u2192sound/phoneme)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b9",
+    "text": "Cavities: Oral/Nasal",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b10",
+    "text": "(Sound produced)Velum: trapdoor that separate the",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b11",
+    "text": "two cavities",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b12",
+    "text": "Vocal Folds: Source of sound",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        12
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 12
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p19-b13",
+    "text": "Vocal Tract: Creator of sound",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 19,
+      "end_page": 19,
+      "block_numbers": [
+        13
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 19,
+      "block_number": 13
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b2",
+    "text": "I.Based on the Vocal Fold Vibration:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b3",
+    "text": "i.Voiced: Vocal folds \u2192open and close (vibration). The vocal tract tube",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b4",
+    "text": "is excited by the pulses of air pressure resulting from quasi-periodic",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b5",
+    "text": "opening and closing of vocal folds. Ex: Vowels /UH/ /IY/ , liquids /W/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b6",
+    "text": "/L/, glides /Y/ /R/, nasals /M/ /N/.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b7",
+    "text": "ii.Unvoiced: Vocal folds are slightly opened (no vibration). Creates",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b8",
+    "text": "constriction somewhere in the vocal tract tube and forces the air pass",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b9",
+    "text": "through that constriction, causing turbulent air airflow. (random noise).",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b10",
+    "text": "Ex: /SH/ /S/.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b11",
+    "text": "iii. Silence: Vocal folds are fully opened (no vibration)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p20-b12",
+    "text": "Categories of Sound",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 20,
+      "end_page": 20,
+      "block_numbers": [
+        12
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 20,
+      "block_number": 12
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p21-b2",
+    "text": "II. Based on the Constriction of the Vocal Tract Tube:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 21,
+      "end_page": 21,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 21,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p21-b3",
+    "text": "i.Stops: Tube is fully closed, air burst through the oral cavity.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 21,
+      "end_page": 21,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 21,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p21-b4",
+    "text": "Ex: /K/ /P/ /T/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 21,
+      "end_page": 21,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 21,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p21-b5",
+    "text": "ii.Fricatives: Tube is partially closed (narrow constriction).",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 21,
+      "end_page": 21,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 21,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p21-b6",
+    "text": "Ex: /F/ /V/ /TH/ /DH/ /S/ /Z/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 21,
+      "end_page": 21,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 21,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p21-b7",
+    "text": "iii. Affricates: Tube is fully closed for sometime, and partially opened",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 21,
+      "end_page": 21,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 21,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p21-b8",
+    "text": "later. Ex: /CH/, /JH/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 21,
+      "end_page": 21,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 21,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p21-b9",
+    "text": "Note: Fricatives, Affricates, and Stops can be Voiced or Unvoiced based",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 21,
+      "end_page": 21,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 21,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p21-b10",
+    "text": "on the vibration of the vocal folds.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 21,
+      "end_page": 21,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 21,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p21-b11",
+    "text": "Categories of Sound (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 21,
+      "end_page": 21,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 21,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b2",
+    "text": "1. Categorize the below phonemes into voiced or unvoiced sounds:/B/ /D/ /G/ /V/ /DH/ /Z/ /JH//P/ /T/ /K/ /F/ /TH/ /S/ /CH/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b3",
+    "text": "Activity",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b4",
+    "text": "VoicedUnvoiced",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b5",
+    "text": "/B//P/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b6",
+    "text": "/D//T/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b7",
+    "text": "/G//K/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b8",
+    "text": "/V//F/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b9",
+    "text": "/DH//TH/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b10",
+    "text": "/Z//S/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b11",
+    "text": "/JH//CH/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b12",
+    "text": "Fricatives",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        12
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 12
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p22-b13",
+    "text": "Affricates",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 22,
+      "end_page": 22,
+      "block_numbers": [
+        13
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 22,
+      "block_number": 13
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p23-b1",
+    "text": "Practical",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 23,
+      "end_page": 23,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 23,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p23-b2",
+    "text": "1. Speech Recording and Waveform Visualization:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 23,
+      "end_page": 23,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 23,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p23-b3",
+    "text": "i.MATLAB code to record the speech signal.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 23,
+      "end_page": 23,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 23,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p23-b4",
+    "text": "ii.Plotthewaveformandcategorizeintodifferentsounds",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 23,
+      "end_page": 23,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 23,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p23-b5",
+    "text": "(demarcations).",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 23,
+      "end_page": 23,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 23,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p24-b2",
+    "text": "\u2022Engineering model of the human speech production system.Source-Filter Model",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 24,
+      "end_page": 24,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 24,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p24-b4",
+    "text": "e(t)input",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 24,
+      "end_page": 24,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 24,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p24-b5",
+    "text": "s(t)outputh(t)filter",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 24,
+      "end_page": 24,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 24,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p24-b6",
+    "text": "s(t) = e(t) * h(t)S(s) = E(s) H(s)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 24,
+      "end_page": 24,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 24,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p24-b7",
+    "text": "\u2022 Input has different frequencies + fundamental frequency (pitch).\u2022 The frequency response of the vocal tract modifies the input signal based on thepositioning of the articulators, which are the instruments in forming the phonemes.\u2022 Formant frequencies \u2013 the resonance frequencies resulting from a particularconfiguration of the articulators.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 24,
+      "end_page": 24,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 24,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p25-b2",
+    "text": "1. Source:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 25,
+      "end_page": 25,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 25,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p25-b3",
+    "text": "\u2022Simulates different modes of sound generation in the vocal tract.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 25,
+      "end_page": 25,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 25,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p25-b4",
+    "text": "\u2022Voiced \u2192source \u2192vocal folds vibrates \u2192periodic pulses \u2192pitch",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 25,
+      "end_page": 25,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 25,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p25-b5",
+    "text": "\u2022Unvoiced \u2192source \u2192vocal folds do not vibrate \u2192noise \u2192no pitch",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 25,
+      "end_page": 25,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 25,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p25-b6",
+    "text": "Source-Filter Model (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 25,
+      "end_page": 25,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 25,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b3",
+    "text": "1. Source:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b4",
+    "text": "\u2022Pitch/Fundamental frequency: frequency at which vocal folds vibrates.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b5",
+    "text": "\u2022Every voiced sound has a specific pitch, denoted as \u2018F0\u2019 .",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b6",
+    "text": "\u2022In music, every note has a specific \u2018F0\u2019 .",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b7",
+    "text": "\u2022The average F0 range of a person is the characteristic feature of that",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b8",
+    "text": "person.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b9",
+    "text": "\u2022Peak-to-Peak \u21921 cycle.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b10",
+    "text": "\u2022avgt0 =",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b11",
+    "text": "timeNo.ofcycles; avgF0 =",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b12",
+    "text": "1t0",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        12
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 12
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p26-b13",
+    "text": "Source-Filter Model (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 26,
+      "end_page": 26,
+      "block_numbers": [
+        13
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 26,
+      "block_number": 13
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b2",
+    "text": "1. Source:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b3",
+    "text": "\u2022The average F0 range changes between gender based on the length and",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b4",
+    "text": "mass of the vocal folds.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b5",
+    "text": "\u2022Men: length \u2191and mass \u2191, therefore avg F0 \u2193",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b6",
+    "text": "\u2022Women: length \u2193and mass \u2193, therefore avg F0 \u2191",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b7",
+    "text": "\u2022Children ?",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b8",
+    "text": "Source-Filter Model (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b9",
+    "text": "GenderVocal Fold LengthF0Formants",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b10",
+    "text": "MaleLongLow (100 Hz \u2013 150 Hz)Lower",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b11",
+    "text": "WomenShortHigh (200 Hz \u2013 250 Hz)Higher",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p27-b12",
+    "text": "ChildrenMuch shorterHigher (300 Hz \u2013 500 Hz)Highest",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 27,
+      "end_page": 27,
+      "block_numbers": [
+        12
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 27,
+      "block_number": 12
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p28-b3",
+    "text": "1. Indicate the voiced and",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 28,
+      "end_page": 28,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 28,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p28-b4",
+    "text": "unvoiced sounds",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 28,
+      "end_page": 28,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 28,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p28-b5",
+    "text": "2. Find the average F0 of a",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 28,
+      "end_page": 28,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 28,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p28-b6",
+    "text": "voiced sound.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 28,
+      "end_page": 28,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 28,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p28-b7",
+    "text": "3. Identify the speaker.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 28,
+      "end_page": 28,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 28,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p28-b8",
+    "text": "Problem 1",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 28,
+      "end_page": 28,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 28,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p29-b2",
+    "text": "Problem 2",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 29,
+      "end_page": 29,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 29,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p29-b4",
+    "text": "1. Indicate the boundaries between",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 29,
+      "end_page": 29,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 29,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p29-b5",
+    "text": "phonemes: /c/ /a/ /tt/ /le/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 29,
+      "end_page": 29,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 29,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p29-b6",
+    "text": "2. Indicate the point where the voice",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 29,
+      "end_page": 29,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 29,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p29-b7",
+    "text": "pitch frequency is (i) the highest",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 29,
+      "end_page": 29,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 29,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p29-b8",
+    "text": "and (ii) the lowest. What are the",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 29,
+      "end_page": 29,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 29,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p29-b9",
+    "text": "pitch frequencies at these points.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 29,
+      "end_page": 29,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 29,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p29-b10",
+    "text": "3. Isthespeakerprobablya",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 29,
+      "end_page": 29,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 29,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p29-b11",
+    "text": "male/female/child? How do you",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 29,
+      "end_page": 29,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 29,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p29-b12",
+    "text": "know?",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 29,
+      "end_page": 29,
+      "block_numbers": [
+        12
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 29,
+      "block_number": 12
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p30-b2",
+    "text": "2. Filter: (LTI System)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 30,
+      "end_page": 30,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 30,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p30-b3",
+    "text": "\u2022Alters the input excitation to produce recognizable phoneme.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 30,
+      "end_page": 30,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 30,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p30-b4",
+    "text": "\u2022The articulators instrument the shape of the vocal tract emphasizes the",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 30,
+      "end_page": 30,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 30,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p30-b5",
+    "text": "formants.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 30,
+      "end_page": 30,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 30,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p30-b6",
+    "text": "Source-Filter Model (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 30,
+      "end_page": 30,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 30,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p31-b2",
+    "text": "2. Filter: (LTI System)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 31,
+      "end_page": 31,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 31,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p31-b3",
+    "text": "\u2022Analysed in frequency domain",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 31,
+      "end_page": 31,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 31,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p31-b4",
+    "text": "\u2022Determining the poles \u2192formants \u2192sound/phoneme.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 31,
+      "end_page": 31,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 31,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p31-b5",
+    "text": "\u2022Mathematically, formants \u2192F1, F2, F3.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 31,
+      "end_page": 31,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 31,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p31-b6",
+    "text": "\u2022Poles near to the unit circle \u2192more amplification at the harmonics of",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 31,
+      "end_page": 31,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 31,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p31-b7",
+    "text": "F0 closer to the formants F1, F2, F3.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 31,
+      "end_page": 31,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 31,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p31-b8",
+    "text": "\u2022Poles away from the unit circle \u2192dispersed amplification at the",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 31,
+      "end_page": 31,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 31,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p31-b9",
+    "text": "harmonics of F0 closer and surrounding the formants F1, F2, F3.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 31,
+      "end_page": 31,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 31,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p31-b10",
+    "text": "Source-Filter Model (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 31,
+      "end_page": 31,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 31,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p32-b2",
+    "text": "2. Filter: (LTI System)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 32,
+      "end_page": 32,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 32,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p32-b3",
+    "text": "\u2022Consider a all-pole filter model:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 32,
+      "end_page": 32,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 32,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p32-b4",
+    "text": "\u2022The pole location in s-plane:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 32,
+      "end_page": 32,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 32,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p32-b5",
+    "text": "\u2022The pole location in z-plane:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 32,
+      "end_page": 32,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 32,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p32-b6",
+    "text": "Source-Filter Model (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 32,
+      "end_page": 32,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 32,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p33-b2",
+    "text": "Source-Filter Model (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 33,
+      "end_page": 33,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 33,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p33-b3",
+    "text": "Source Fundamental Frequency (F0)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 33,
+      "end_page": 33,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 33,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p33-b4",
+    "text": "Source Property (Speaker)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 33,
+      "end_page": 33,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 33,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p33-b5",
+    "text": "FilterFormant Frequencies (F1, F2, F3)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 33,
+      "end_page": 33,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 33,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p33-b6",
+    "text": "Filter Property (Phoneme)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 33,
+      "end_page": 33,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 33,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p33-b7",
+    "text": "\u2022The speech signal can be represented by the parameters of the model.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 33,
+      "end_page": 33,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 33,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p33-b8",
+    "text": "\u2022Analyse the model parameters over a short duration \u2013 time-invariant",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 33,
+      "end_page": 33,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 33,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p33-b9",
+    "text": "over short intervals - compute/process the speech signal \u2013 digital",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 33,
+      "end_page": 33,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 33,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p33-b10",
+    "text": "domain.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 33,
+      "end_page": 33,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 33,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p34-b2",
+    "text": "1. Manner of Articulation: Partial/full air-flow.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 34,
+      "end_page": 34,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 34,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p34-b3",
+    "text": "2. Place of Articulation: Place of constriction/obstacle.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 34,
+      "end_page": 34,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 34,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p34-b4",
+    "text": "How to Describe a Sound?",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 34,
+      "end_page": 34,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 34,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p35-b1",
+    "text": "Manner of Articulation",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 35,
+      "end_page": 35,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 35,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p35-b2",
+    "text": "1. Stops - Complete obstruction of airflow",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 35,
+      "end_page": 35,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 35,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p35-b3",
+    "text": "2. Fricatives - Nearly complete obstruction of airflow",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 35,
+      "end_page": 35,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 35,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p35-b4",
+    "text": "3. Affricates - stop followed by a fricative",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 35,
+      "end_page": 35,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 35,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p35-b5",
+    "text": "4. Nasals - Air passes through nasal cavity",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 35,
+      "end_page": 35,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 35,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p35-b6",
+    "text": "5. Liquids - Not narrow enough constriction",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 35,
+      "end_page": 35,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 35,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p35-b7",
+    "text": "6. Glides - slight closure of the articulation",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 35,
+      "end_page": 35,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 35,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p36-b1",
+    "text": "Manner of Articulation (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 36,
+      "end_page": 36,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 36,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p36-b3",
+    "text": "MannerEnglishPhonemes",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 36,
+      "end_page": 36,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 36,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p36-b4",
+    "text": "Hindi Phonemes",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 36,
+      "end_page": 36,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 36,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p36-b5",
+    "text": "Stopsp,t,k,b,d,gp, t\u032a, t,k,b,d\u032a,d,gph,t\u032ah,th,kh,bh,d\u032ah,dh,ghFricativesf,v,s,sh,zs,shAffricatesdz,chch,chh,zh,zhhNasalsm,n,ngm,n,ngLiquidsr,lr,lGlidesw,jy,v",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 36,
+      "end_page": 36,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 36,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p37-b2",
+    "text": "Place of Articulation",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 37,
+      "end_page": 37,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 37,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p37-b3",
+    "text": "PlaceEnglishPhonemes(stops)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 37,
+      "end_page": 37,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 37,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p37-b4",
+    "text": "Hindi Phonemes (stops)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 37,
+      "end_page": 37,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 37,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p37-b5",
+    "text": "Labialp, b,mp,b,ph,bh",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 37,
+      "end_page": 37,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 37,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p37-b6",
+    "text": "Dentalt\u032a,d\u032a",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 37,
+      "end_page": 37,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 37,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p37-b7",
+    "text": "Alveolart,d",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 37,
+      "end_page": 37,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 37,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p37-b8",
+    "text": "Retroflext,d",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 37,
+      "end_page": 37,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 37,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p37-b9",
+    "text": "Velark,gk,kh,g,gh",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 37,
+      "end_page": 37,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 37,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p38-b2",
+    "text": "Categories of Sound Phonetically",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 38,
+      "end_page": 38,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 38,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p39-b2",
+    "text": "Categories of Sound Linguistically",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 39,
+      "end_page": 39,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 39,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p40-b2",
+    "text": "Categories of Sound Linguistically (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 40,
+      "end_page": 40,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 40,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p40-b3",
+    "text": "1. Vowels\u2022 Largest phoneme\u2022 No constriction of airflow\u2022 Source \u2013 quasi-periodic air puffs\u2022 Position of tongue + Roundness of lips = voweli.Position of the tongue \u2192high/low and front/backii.Roundness of lips \u2192rounded/unrounded\u2022 Example:i./oo/ in food \u2013 high, back, roundedii./I/ in thing \u2013 low, front, unrounded",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 40,
+      "end_page": 40,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 40,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p41-b2",
+    "text": "Categories of Sound Linguistically (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 41,
+      "end_page": 41,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 41,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p41-b3",
+    "text": "2. Diphthongs\u2022 Gliding monosyllabic sound \u2022 Start at one articulatory position and moves to another position\u2022 Source \u2013 quasi-periodic air puffs\u2022 Example: day, my, boy, house, air, pure",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 41,
+      "end_page": 41,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 41,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p41-b4",
+    "text": "3. Semivowels\u2022 Vowel like nature but function-like consonant\u2022 Gliding transition between adjacent phonemes\u2022 Source \u2013 quasi-periodic air puffs \u2022 Example: yes, we, water",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 41,
+      "end_page": 41,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 41,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p41-b5",
+    "text": "Note: Strengths of diphthongs, semivowels, and nasals are less than that of a vowel.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 41,
+      "end_page": 41,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 41,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p42-b3",
+    "text": "Fig 6: Vocal tract profiles for voiced sounds",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 42,
+      "end_page": 42,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 42,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p43-b3",
+    "text": "Categories of Sound Linguistically (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 43,
+      "end_page": 43,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 43,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p43-b4",
+    "text": "4. Consonants\u2022 Second-largest phoneme\u2022 Source - noise\u2022 Airflow constrictioni.Fricatives \u2013 Partial constrictionii.Plosives/Stops \u2013 Total constriction \u2192sudden release/burstiii. Nasal\u2013quasi-periodicairpuffs,vocalfoldsvibrates,butconstriction of air in the oral cavity, sound is radiated through thenostrils",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 43,
+      "end_page": 43,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 43,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p43-b5",
+    "text": "Fig 7: Vocal tract profiles for nasal sounds",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 43,
+      "end_page": 43,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 43,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p44-b3",
+    "text": "Fig 8: Vocal tract profiles for Fricative sounds",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 44,
+      "end_page": 44,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 44,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p44-b5",
+    "text": "Fig 8: Vocal tract profiles for Plosive sounds",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 44,
+      "end_page": 44,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 44,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p45-b2",
+    "text": "Voice Onset Time (VOT)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 45,
+      "end_page": 45,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 45,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p45-b4",
+    "text": "\u2022Plosive is followed by a",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 45,
+      "end_page": 45,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 45,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p45-b5",
+    "text": "vowel",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 45,
+      "end_page": 45,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 45,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p45-b6",
+    "text": "\u2022Hence, a burst",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 45,
+      "end_page": 45,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 45,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p45-b7",
+    "text": "\u2022VOT\u2013thetimetaken",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 45,
+      "end_page": 45,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 45,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p45-b8",
+    "text": "between the burst and the",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 45,
+      "end_page": 45,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 45,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p45-b9",
+    "text": "voicing onset",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 45,
+      "end_page": 45,
+      "block_numbers": [
+        9
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 45,
+      "block_number": 9
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p45-b10",
+    "text": "\u2022Unvoiced VOT = burst +",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 45,
+      "end_page": 45,
+      "block_numbers": [
+        10
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 45,
+      "block_number": 10
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p45-b11",
+    "text": "aspiration",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 45,
+      "end_page": 45,
+      "block_numbers": [
+        11
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 45,
+      "block_number": 11
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p45-b12",
+    "text": "\u2022Voiced VOT = burst",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 45,
+      "end_page": 45,
+      "block_numbers": [
+        12
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 45,
+      "block_number": 12
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p46-b2",
+    "text": "Categories of Sound Linguistically (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 46,
+      "end_page": 46,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 46,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p46-b3",
+    "text": "\u2022Fundamental frequency \u2013 determine the source of sound & speaker",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 46,
+      "end_page": 46,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 46,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p46-b4",
+    "text": "\u2022Formants \u2013 determine the sound (vowel/consonant)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 46,
+      "end_page": 46,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 46,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p46-b5",
+    "text": "\u2022Note: Determining vowel is easier than consonants because:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 46,
+      "end_page": 46,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 46,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p46-b6",
+    "text": "i. Formants are sufficient to determine a vowel",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 46,
+      "end_page": 46,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 46,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p46-b7",
+    "text": "ii.Consonants \u2013 formants + formant transition + voicing/unvoicing +",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 46,
+      "end_page": 46,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 46,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p46-b8",
+    "text": "relative timing + VOT",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 46,
+      "end_page": 46,
+      "block_numbers": [
+        8
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 46,
+      "block_number": 8
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p47-b3",
+    "text": "English phonemes and corresponding features",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 47,
+      "end_page": 47,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 47,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p48-b2",
+    "text": "English phonemes and corresponding features (Contd.)",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 48,
+      "end_page": 48,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 48,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p49-b2",
+    "text": "Acoustic Characteristic of Speech",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 49,
+      "end_page": 49,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 49,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p49-b3",
+    "text": "1. Phoneme Classification:\u2022 Voiced/Unvoiced\u2022 Vowels/Consonants",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 49,
+      "end_page": 49,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 49,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p49-b4",
+    "text": "2. Time-domain Characteristics\u2022 Amplitude\u2022 Duration\u2022 Energy",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 49,
+      "end_page": 49,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 49,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p49-b5",
+    "text": "3. Frequency-domain Characteristics\u2022 Fundamental frequency\u2022 Formants",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 49,
+      "end_page": 49,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 49,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p50-b2",
+    "text": "Spectrogram",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 50,
+      "end_page": 50,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 50,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p50-b3",
+    "text": "Three dimensional pattern",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 50,
+      "end_page": 50,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 50,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p50-b4",
+    "text": "1. Horizontal axis \u2013 time",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 50,
+      "end_page": 50,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 50,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p50-b5",
+    "text": "2. Vertical axis \u2013 frequency",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 50,
+      "end_page": 50,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 50,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p50-b6",
+    "text": "3. Darkness of the display - amplitude",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 50,
+      "end_page": 50,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 50,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p51-b2",
+    "text": "Acoustic waveforms of English vowels",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 51,
+      "end_page": 51,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 51,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p52-b2",
+    "text": "Spectra of three basic vowels /a/,/i/and /u/",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 52,
+      "end_page": 52,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 52,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p52-b4",
+    "text": "a",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 52,
+      "end_page": 52,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 52,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p53-b1",
+    "text": "Average formant frequencies (Hz) for English",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 53,
+      "end_page": 53,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 53,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p53-b2",
+    "text": "vowels",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 53,
+      "end_page": 53,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 53,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p53-b4",
+    "text": "\u2022 F1 relates to height of the tongue \u2013 decreases with increase in height of the",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 53,
+      "end_page": 53,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 53,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p53-b5",
+    "text": "tongue",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 53,
+      "end_page": 53,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 53,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p53-b6",
+    "text": "\u2022 F2 relates to backness of the tongue \u2013 decreases as tongue shifts backward",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 53,
+      "end_page": 53,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 53,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p53-b7",
+    "text": "\u2022 Survey: Number of male speakers: 32; Number of female speakers: 28",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 53,
+      "end_page": 53,
+      "block_numbers": [
+        7
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 53,
+      "block_number": 7
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p54-b2",
+    "text": "Plot of F1 vs. F2 for vowels using 60 speakers",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 54,
+      "end_page": 54,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 54,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p55-b1",
+    "text": "Practical 2",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 55,
+      "end_page": 55,
+      "block_numbers": [
+        1
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 55,
+      "block_number": 1
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p55-b2",
+    "text": "1. Determining the Speaker from the Fundamental Frequency of a",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 55,
+      "end_page": 55,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 55,
+      "block_number": 2
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p55-b3",
+    "text": "recorded speech:",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 55,
+      "end_page": 55,
+      "block_numbers": [
+        3
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 55,
+      "block_number": 3
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p55-b4",
+    "text": "i.Read the recorded speech signal.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 55,
+      "end_page": 55,
+      "block_numbers": [
+        4
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 55,
+      "block_number": 4
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p55-b5",
+    "text": "ii.Take the vowel portion from the speech.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 55,
+      "end_page": 55,
+      "block_numbers": [
+        5
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 55,
+      "block_number": 5
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p55-b6",
+    "text": "iii. Find the F0 from the waveform.",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 55,
+      "end_page": 55,
+      "block_numbers": [
+        6
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 55,
+      "block_number": 6
+    }
+  },
+  {
+    "chunk_id": "doc_0a25933749f039d1_c6a566ee-p56-b2",
+    "text": "Thank You...",
+    "metadata": {
+      "document_id": "doc_0a25933749f039d1_c6a566ee",
+      "source": "Module1 SP EC4143.pdf",
+      "source_type": "pdf",
+      "section_title": null,
+      "start_page": 56,
+      "end_page": 56,
+      "block_numbers": [
+        2
+      ],
+      "filename": "Module1 SP EC4143.pdf",
+      "page_number": 56,
+      "block_number": 2
+    }
+  }
+]

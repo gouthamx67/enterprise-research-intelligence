@@ -1,0 +1,288 @@
+:root {
+    font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    color: #1f2937;
+    background: #f3f4f6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+button,
+input,
+textarea {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
+.app-shell {
+    width: min(
+        100% - 32px,
+        1100px
+    );
+
+    margin: 0 auto;
+    padding: 48px 0 80px;
+}
+
+.hero {
+    margin-bottom: 28px;
+}
+
+.eyebrow {
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+h1 {
+    margin-bottom: 12px;
+    font-size: clamp(
+        2rem,
+        5vw,
+        3.5rem
+    );
+    line-height: 1.05;
+}
+
+.subtitle {
+    max-width: 720px;
+    margin: 0;
+    color: #6b7280;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.panel {
+    margin-bottom: 20px;
+    padding: 24px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    box-shadow:
+        0 8px 24px rgba(
+            15,
+            23,
+            42,
+            0.06
+        );
+}
+
+.hidden {
+    display: none;
+}
+
+.upload-row,
+.question-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input[type="file"],
+textarea {
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    padding: 12px;
+    background: white;
+}
+
+button {
+    border: 0;
+    border-radius: 10px;
+    padding: 11px 16px;
+    background: #111827;
+    color: white;
+    font-weight: 700;
+}
+
+button:hover:not(:disabled) {
+    background: #374151;
+}
+
+textarea {
+    min-height: 110px;
+    resize: vertical;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.status {
+    min-height: 24px;
+    margin: 12px 0 0;
+    color: #4b5563;
+}
+
+.status.error {
+    color: #b91c1c;
+}
+
+.document-summary {
+    display: grid;
+    grid-template-columns:
+        repeat(
+            3,
+            minmax(0, 1fr)
+        );
+
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.document-summary > div {
+    padding: 14px;
+    border-radius: 10px;
+    background: #f9fafb;
+}
+
+.label {
+    display: block;
+    margin-bottom: 4px;
+    color: #6b7280;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+code {
+    word-break: break-all;
+}
+
+.answer-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.confidence {
+    white-space: nowrap;
+    padding: 8px 10px;
+    border-radius: 999px;
+    background: #f3f4f6;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.answer {
+    margin: 20px 0;
+    font-size: 1.08rem;
+    line-height: 1.8;
+}
+
+.citation-link {
+    display: inline;
+    margin: 0 2px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: #e5e7eb;
+    color: inherit;
+    font-size: 0.85em;
+    font-weight: 800;
+}
+
+.citation-link:hover {
+    background: #d1d5db;
+}
+
+.grounding {
+    margin-bottom: 28px;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.grounding-valid {
+    font-weight: 800;
+}
+
+.grounding-invalid {
+    font-weight: 800;
+    color: #b45309;
+}
+
+.citations {
+    display: grid;
+    gap: 12px;
+}
+
+.citation-card {
+    padding: 18px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fafafa;
+    scroll-margin-top: 24px;
+    transition:
+        transform 160ms ease,
+        box-shadow 160ms ease,
+        border-color 160ms ease;
+}
+
+.citation-card.focused {
+    transform: translateY(-2px);
+    border-color: #6b7280;
+    box-shadow:
+        0 12px 24px rgba(
+            15,
+            23,
+            42,
+            0.12
+        );
+}
+
+.citation-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.citation-location,
+.citation-section {
+    color: #6b7280;
+    font-size: 0.85rem;
+}
+
+.citation-excerpt {
+    margin-bottom: 0;
+    line-height: 1.65;
+}
+
+@media (max-width: 720px) {
+    .document-summary {
+        grid-template-columns: 1fr;
+    }
+
+    .answer-header {
+        flex-direction: column;
+    }
+}

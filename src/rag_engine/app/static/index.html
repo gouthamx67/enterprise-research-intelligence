@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Enterprise Research Intelligence</title>
+    <link
+        rel="stylesheet"
+        href="/static/styles.css"
+    >
+</head>
+
+<body>
+    <main class="app-shell">
+        <header class="hero">
+            <p class="eyebrow">
+                Enterprise Research Intelligence
+            </p>
+
+            <h1>
+                Ask questions about your documents.
+            </h1>
+
+            <p class="subtitle">
+                Upload a document, process it, and ask questions
+                with evidence-backed citations.
+            </p>
+        </header>
+
+        <section class="panel">
+            <h2>1. Upload document</h2>
+
+            <div class="upload-row">
+                <input
+                    id="document-file"
+                    type="file"
+                    accept=".pdf,.docx,.md,.markdown,.html,.htm,.csv,.json"
+                >
+
+                <button
+                    id="upload-button"
+                    type="button"
+                >
+                    Upload
+                </button>
+            </div>
+
+            <p
+                id="upload-status"
+                class="status"
+                aria-live="polite"
+            ></p>
+        </section>
+
+        <section
+            id="document-panel"
+            class="panel hidden"
+        >
+            <h2>2. Process document</h2>
+
+            <div class="document-summary">
+                <div>
+                    <span class="label">Document</span>
+                    <strong id="document-name"></strong>
+                </div>
+
+                <div>
+                    <span class="label">Status</span>
+                    <strong id="document-status"></strong>
+                </div>
+
+                <div>
+                    <span class="label">Document ID</span>
+                    <code id="document-id"></code>
+                </div>
+            </div>
+
+            <button
+                id="process-button"
+                type="button"
+            >
+                Process and index
+            </button>
+
+            <p
+                id="process-status"
+                class="status"
+                aria-live="polite"
+            ></p>
+        </section>
+
+        <section
+            id="question-panel"
+            class="panel hidden"
+        >
+            <h2>3. Ask a question</h2>
+
+            <textarea
+                id="question-input"
+                rows="4"
+                placeholder="What changed in the company's product strategy?"
+            ></textarea>
+
+            <div class="question-row">
+                <button
+                    id="ask-button"
+                    type="button"
+                >
+                    Ask
+                </button>
+
+                <span
+                    id="question-status"
+                    class="status"
+                    aria-live="polite"
+                ></span>
+            </div>
+        </section>
+
+        <section
+            id="answer-panel"
+            class="panel hidden"
+        >
+            <div class="answer-header">
+                <div>
+                    <span class="label">
+                        Answer
+                    </span>
+
+                    <h2 id="answer-heading">
+                        Research result
+                    </h2>
+                </div>
+
+                <div
+                    id="confidence"
+                    class="confidence"
+                ></div>
+            </div>
+
+            <div
+                id="answer"
+                class="answer"
+            ></div>
+
+            <div
+                id="grounding"
+                class="grounding"
+            ></div>
+
+            <h3>
+                Sources and evidence
+            </h3>
+
+            <div
+                id="citations"
+                class="citations"
+            ></div>
+        </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
