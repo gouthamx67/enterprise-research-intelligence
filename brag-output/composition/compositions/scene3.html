@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+<head><meta charset="UTF-8"/></head>
+<body>
+  <template>
+    <style>
+      #s3-root {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        background: #f3f4f6;
+      }
+      #s3-root * { box-sizing: border-box; }
+      .s3-stage {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 72px 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 22px;
+      }
+      .s3-inner {
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+      }
+      .s3-ask-header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 30px;
+      }
+      .s3-mini-label {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #4b5563;
+        margin: 0;
+      }
+      .s3-ask-q {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 1.4;
+        color: #1f2937;
+        margin: 8px 0 0 0;
+        max-width: 840px;
+      }
+      #s3-ask-btn {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 24px;
+        color: #f9fafb;
+        background: #111827;
+        border: none;
+        border-radius: 12px;
+        padding: 14px 30px;
+        cursor: pointer;
+        flex: none;
+      }
+      .s3-answer-card {
+        position: relative;
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        border-radius: 20px;
+        padding: 30px 34px;
+        box-shadow: 0 14px 40px rgba(15,23,42,0.06);
+      }
+      .s3-answer-glow {
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        width: 900px;
+        height: 420px;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(ellipse, rgba(79,96,132,0.35), transparent 68%);
+        pointer-events: none;
+        z-index: 0;
+        opacity: 0.4;
+      }
+      .s3-answer-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+      }
+      #s3-confidence-pill {
+        font-family: JetBrains Mono;
+        font-weight: 700;
+        font-size: 21px;
+        color: #1f2937;
+        background: #f3f4f6;
+        border-radius: 999px;
+        padding: 8px 18px;
+      }
+      .s3-answer-text {
+        position: relative;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 1.55;
+        color: #1f2937;
+        margin: 0 0 0 0;
+        z-index: 1;
+      }
+      .s3-answer-text .s3-hl {
+        font-weight: 700;
+        color: #1f2937;
+      }
+      .s3-cite-chip {
+        font-family: JetBrains Mono;
+        font-weight: 800;
+        font-size: 20px;
+        color: #1f2937;
+        background: #e5e7eb;
+        border-radius: 7px;
+        padding: 2px 9px;
+        margin-left: 5px;
+        white-space: nowrap;
+      }
+      .s3-badge-grounded {
+        position: relative;
+        display: inline-block;
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 25px;
+        color: #065f46;
+        background: #d1fae5;
+        border-radius: 999px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        z-index: 1;
+      }
+      .s3-sources-h {
+        font-family: Inter;
+        font-weight: 800;
+        font-size: 30px;
+        color: #1f2937;
+        margin: 6px 0 0 0;
+      }
+      .s3-cite {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        border-radius: 14px;
+        padding: 16px 24px;
+        box-shadow: 0 6px 18px rgba(15,23,42,0.05);
+      }
+      .s3-cite-id {
+        flex: none;
+        font-family: JetBrains Mono;
+        font-weight: 700;
+        font-size: 24px;
+        color: #111827;
+        background: #f3f4f6;
+        border-radius: 9px;
+        padding: 5px 12px;
+      }
+      .s3-cite-mid {
+        flex: none;
+        min-width: 300px;
+      }
+      .s3-cite-src {
+        display: block;
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 23px;
+        color: #1f2937;
+      }
+      .s3-cite-page {
+        display: block;
+        font-family: JetBrains Mono;
+        font-weight: 400;
+        font-size: 18px;
+        color: #4b5563;
+        margin-top: 2px;
+      }
+      .s3-cite-ex {
+        flex: 1;
+        text-align: right;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 25px;
+        color: #374151;
+      }
+    </style>
+
+    <div id="s3-root" data-composition-id="scene3" data-width="1920" data-height="1080" data-duration="7.5">
+      <div class="s3-stage">
+        <div class="s3-inner">
+          <div id="s3-ask-header" class="s3-ask-header">
+            <div>
+              <p class="s3-mini-label">Question</p>
+              <p class="s3-ask-q" data-layout-allow-overlap>What changed in the company's product strategy?</p>
+            </div>
+            <button id="s3-ask-btn" type="button">Ask</button>
+          </div>
+
+          <div id="s3-answer-card" class="s3-answer-card">
+            <div class="s3-answer-glow" id="s3-glow"></div>
+            <div class="s3-answer-top">
+              <p class="s3-mini-label">Answer</p>
+              <span id="s3-confidence-pill">Confidence 0.940</span>
+            </div>
+            <p id="s3-answer-text" class="s3-answer-text">The product strategy shifted toward <span class="s3-hl">enterprise customers</span>, broader platform capabilities, and expanded monetization. <span class="s3-cite-chip">[C1]</span><span class="s3-cite-chip">[C2]</span></p>
+            <span id="s3-grounded-badge" class="s3-badge-grounded">Grounded · 3/3 claims supported</span>
+          </div>
+
+          <p id="s3-sources-heading" class="s3-sources-h">Sources and evidence</p>
+
+          <div id="s3-cite-1" class="s3-cite">
+            <span class="s3-cite-id">C1</span>
+            <div class="s3-cite-mid">
+              <span class="s3-cite-src">Q2_earnings.pdf</span>
+              <span class="s3-cite-page">Page 14</span>
+            </div>
+            <span class="s3-cite-ex">“shifted toward enterprise customers”</span>
+          </div>
+          <div id="s3-cite-2" class="s3-cite">
+            <span class="s3-cite-id">C2</span>
+            <div class="s3-cite-mid">
+              <span class="s3-cite-src">Q2_earnings.pdf</span>
+              <span class="s3-cite-page">Page 22</span>
+            </div>
+            <span class="s3-cite-ex">“broader platform capabilities”</span>
+          </div>
+          <div id="s3-cite-3" class="s3-cite">
+            <span class="s3-cite-id">C3</span>
+            <div class="s3-cite-mid">
+              <span class="s3-cite-src">Q2_earnings.pdf</span>
+              <span class="s3-cite-page">Page 31</span>
+            </div>
+            <span class="s3-cite-ex">“expanded monetization”</span>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        const tl = gsap.timeline({ paused: true });
+        const ease = "power2.out";
+
+        tl.fromTo("#s3-ask-header", { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.5, ease }, 0.25);
+        tl.to("#s3-ask-btn", { scale: 0.94, duration: 0.09, ease: "power2.in" }, 0.8);
+        tl.to("#s3-ask-btn", { scale: 1, duration: 0.1, ease: "power2.out" }, 0.89);
+        tl.fromTo("#s3-answer-card", { opacity: 0, y: 22 }, { opacity: 1, y: 0, duration: 0.55, ease }, 1.0);
+        tl.fromTo("#s3-grounded-badge", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(1.6)" }, 2.2);
+        tl.fromTo("#s3-confidence-pill", { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(1.5)" }, 2.3);
+        tl.fromTo("#s3-sources-heading", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.4, ease }, 2.85);
+        tl.fromTo("#s3-cite-1", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.4, ease }, 3.32);
+        tl.fromTo("#s3-cite-2", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.4, ease }, 4.41);
+        tl.fromTo("#s3-cite-3", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.4, ease }, 5.5);
+
+        (function () {
+          if (!window.AUDIO_DATA) return;
+          const AD = window.AUDIO_DATA;
+          const glow = document.getElementById("s3-glow");
+          const startFrame = Math.floor(8.9 * AD.fps);
+          const endFrame = Math.min(AD.totalFrames, Math.ceil(15.8 * AD.fps));
+          for (let f = startFrame; f < endFrame; f++) {
+            tl.call((function (frame) {
+              return function () {
+                const bands = frame.bands;
+                let s = 0;
+                for (let j = 0; j < bands.length; j++) s += bands[j];
+                const e = s / bands.length;
+                glow.style.opacity = (0.4 + e * 0.3).toFixed(3);
+              };
+            })(AD.frames[f]), [], f / AD.fps - 8.7);
+          }
+        })();
+
+        window.__timelines["scene3"] = tl;
+      </script>
+    </div>
+  </template>
+</body>
+</html>

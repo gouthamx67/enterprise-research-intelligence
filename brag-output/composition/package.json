@@ -1,0 +1,11 @@
+{
+  "name": "enterprise-research-intelligence-brag",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.50 preview",
+    "check": "npx --yes hyperframes@0.8.50 check",
+    "lint": "npx --yes hyperframes@0.8.50 lint",
+    "render": "npx --yes hyperframes@0.8.50 render"
+  }
+}

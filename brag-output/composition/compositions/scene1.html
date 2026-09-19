@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head><meta charset="UTF-8"/></head>
+<body>
+  <template>
+    <style>
+      #s1-root {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        background: #111827;
+      }
+      #s1-root * { box-sizing: border-box; }
+      .s1-scene-bg {
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(1150px 680px at 50% 40%, rgba(55,65,81,0.45), rgba(17,24,39,0.05) 70%);
+      }
+      .s1-glow {
+        position: absolute;
+        left: 50%;
+        top: 42%;
+        width: 1450px;
+        height: 860px;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(ellipse, rgba(79,96,132,0.55), rgba(79,96,132,0.12) 42%, transparent 68%);
+        pointer-events: none;
+      }
+      .s1-center {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .s1-eyebrow {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 30px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: #9ca3af;
+        margin: 0 0 30px 0;
+      }
+      .s1-headline {
+        font-family: Inter;
+        font-weight: 900;
+        font-size: 94px;
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+        color: #f9fafb;
+        max-width: 1500px;
+        margin: 0;
+      }
+      .s1-subtitle {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 32px;
+        color: #9ca3af;
+        margin: 34px 0 0 0;
+      }
+    </style>
+
+    <div id="s1-root" data-composition-id="scene1" data-width="1920" data-height="1080" data-duration="4.5">
+      <div class="s1-scene-bg"></div>
+      <div id="s1-glow" class="s1-glow"></div>
+      <div class="s1-center">
+        <p id="s1-eyebrow" class="s1-eyebrow">Enterprise Research Intelligence</p>
+        <h1 id="s1-head" class="s1-headline" data-layout-allow-overlap>Ask questions about your documents.</h1>
+        <p id="s1-sub" class="s1-subtitle">Evidence-backed citations, page by page.</p>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        const tl = gsap.timeline({ paused: true });
+        const ease = "power2.out";
+
+        tl.fromTo("#s1-eyebrow", { opacity: 0, y: -16 }, { opacity: 1, y: 0, duration: 0.5, ease }, 0.15);
+        tl.fromTo("#s1-head", { opacity: 0, y: 36 }, { opacity: 1, y: 0, duration: 0.55, ease }, 0.7);
+        tl.fromTo("#s1-sub", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease }, 1.45);
+
+        (function () {
+          if (!window.AUDIO_DATA) return;
+          const AD = window.AUDIO_DATA;
+          const glow = document.getElementById("s1-glow");
+          const n = Math.min(AD.totalFrames, Math.ceil(4.6 * AD.fps));
+          for (let f = 0; f < n; f++) {
+            tl.call((function (frame) {
+              return function () {
+                const bands = frame.bands;
+                let s = 0;
+                for (let j = 0; j < bands.length; j++) s += bands[j];
+                const e = s / bands.length;
+                glow.style.opacity = (0.55 + e * 0.38).toFixed(3);
+                glow.style.transform = "translate(-50%, -50%) scale(" + (0.97 + e * 0.07) + ")";
+              };
+            })(AD.frames[f]), [], f / AD.fps);
+          }
+        })();
+
+        window.__timelines["scene1"] = tl;
+      </script>
+    </div>
+  </template>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head><meta charset="UTF-8"/></head>
+<body>
+  <template>
+    <style>
+      #s4-root {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        background: #111827;
+      }
+      #s4-root * { box-sizing: border-box; }
+      .s4-scene-bg {
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(1150px 680px at 50% 40%, rgba(55,65,81,0.45), rgba(17,24,39,0.05) 70%);
+      }
+      .s4-glow {
+        position: absolute;
+        left: 50%;
+        top: 42%;
+        width: 1450px;
+        height: 860px;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(ellipse, rgba(79,96,132,0.55), rgba(79,96,132,0.12) 42%, transparent 68%);
+        pointer-events: none;
+      }
+      .s4-center {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .s4-l1 {
+        font-family: Inter;
+        font-weight: 800;
+        font-size: 62px;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        color: #f9fafb;
+        margin: 0;
+      }
+      .s4-l2 {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 1.2;
+        color: #9ca3af;
+        margin: 22px 0 0 0;
+      }
+      #s4-outro-logo {
+        margin-top: 58px;
+      }
+      .s4-logo-text {
+        font-family: Inter;
+        font-weight: 900;
+        font-size: 46px;
+        letter-spacing: 0.08em;
+        color: #f9fafb;
+        margin: 0;
+      }
+      .s4-logo-tag {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 26px;
+        color: #9ca3af;
+        margin: 18px 0 0 0;
+      }
+    </style>
+
+    <div id="s4-root" data-composition-id="scene4" data-width="1920" data-height="1080" data-duration="4.0">
+      <div class="s4-scene-bg"></div>
+      <div id="s4-glow" class="s4-glow"></div>
+      <div class="s4-center">
+        <p id="s4-l1" class="s4-l1" data-layout-allow-overlap>Answers must come from somewhere.</p>
+        <p id="s4-l2" class="s4-l2">Now they say where.</p>
+        <div id="s4-outro-logo">
+          <p class="s4-logo-text">ENTERPRISE RESEARCH INTELLIGENCE</p>
+          <p class="s4-logo-tag">Evidence-backed answers, page by page.</p>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        const tl = gsap.timeline({ paused: true });
+        const ease = "power2.out";
+
+        tl.fromTo("#s4-l1", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.55, ease }, 0.3);
+        tl.fromTo("#s4-l2", { opacity: 0, y: 22 }, { opacity: 1, y: 0, duration: 0.5, ease }, 1.2);
+        tl.fromTo("#s4-outro-logo", { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.55, ease }, 1.95);
+
+        (function () {
+          if (!window.AUDIO_DATA) return;
+          const AD = window.AUDIO_DATA;
+          const glow = document.getElementById("s4-glow");
+          const startFrame = Math.floor(15.5 * AD.fps);
+          const n = Math.min(AD.totalFrames, Math.ceil(19.6 * AD.fps));
+          for (let f = startFrame; f < n; f++) {
+            tl.call((function (frame) {
+              return function () {
+                const bands = frame.bands;
+                let s = 0;
+                for (let j = 0; j < bands.length; j++) s += bands[j];
+                const e = s / bands.length;
+                glow.style.opacity = (0.5 + e * 0.35).toFixed(3);
+                glow.style.transform = "translate(-50%, -50%) scale(" + (0.97 + e * 0.07) + ")";
+              };
+            })(AD.frames[f]), [], f / AD.fps - 15.6);
+          }
+        })();
+
+        window.__timelines["scene4"] = tl;
+      </script>
+    </div>
+  </template>
+</body>
+</html>

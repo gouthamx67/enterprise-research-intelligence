@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head><meta charset="UTF-8"/></head>
+<body>
+  <template>
+    <style>
+      #s2-root {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        background: #f3f4f6;
+      }
+      #s2-root * { box-sizing: border-box; }
+      .s2-stage {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+      }
+      .s2-kicker {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #4b5563;
+        margin: 0 0 4px 0;
+      }
+      .s2-h2 {
+        font-family: Inter;
+        font-weight: 900;
+        font-size: 54px;
+        letter-spacing: -0.02em;
+        color: #111827;
+        margin: 0;
+      }
+      .s2-step {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        width: 840px;
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        border-radius: 18px;
+        padding: 24px 32px;
+        box-shadow: 0 10px 26px rgba(15,23,42,0.07);
+      }
+      .s2-badge {
+        flex: none;
+        width: 64px;
+        height: 64px;
+        border-radius: 14px;
+        background: #111827;
+        color: #f9fafb;
+        font-family: JetBrains Mono;
+        font-weight: 700;
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .s2-label {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 38px;
+        color: #1f2937;
+        margin: 0;
+      }
+      .s2-cap {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 25px;
+        color: #4b5563;
+        margin: 3px 0 0 0;
+      }
+    </style>
+
+    <div id="s2-root" data-composition-id="scene2" data-width="1920" data-height="1080" data-duration="5.6">
+      <div class="s2-stage">
+        <div>
+          <p id="s2-kicker" class="s2-kicker" data-layout-allow-overlap>The pipeline</p>
+          <h2 id="s2-head" class="s2-h2">Three steps. One answer.</h2>
+        </div>
+        <div id="s2-step-1" class="s2-step">
+          <div class="s2-badge">01</div>
+          <div>
+            <p class="s2-label">Upload document</p>
+            <p class="s2-cap">PDF, DOCX, Markdown</p>
+          </div>
+        </div>
+        <div id="s2-step-2" class="s2-step">
+          <div class="s2-badge">02</div>
+          <div>
+            <p class="s2-label">Process document</p>
+            <p class="s2-cap">Chunk, embed, and index</p>
+          </div>
+        </div>
+        <div id="s2-step-3" class="s2-step">
+          <div class="s2-badge">03</div>
+          <div>
+            <p class="s2-label">Ask a question</p>
+            <p class="s2-cap">Evidence-backed answers</p>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        const tl = gsap.timeline({ paused: true });
+        const ease = "power2.out";
+
+        tl.fromTo("#s2-kicker", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.4, ease }, 0.15);
+        tl.fromTo("#s2-head", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.45, ease }, 0.25);
+        tl.fromTo("#s2-step-1", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease }, 0.35);
+        tl.fromTo("#s2-step-2", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease }, 1.95);
+        tl.fromTo("#s2-step-3", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease }, 3.55);
+
+        window.__timelines["scene2"] = tl;
+      </script>
+    </div>
+  </template>
+</body>
+</html>
